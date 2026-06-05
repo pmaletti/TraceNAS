@@ -1,7 +1,7 @@
 <p align="center">
   <img src="figures/tracenas_efficiency_update.png" alt="TraceNAS" width="400"/>
 </p>
-This repository contains the code for <i><b>TraceNAS: Zero-shot LLM Pruning via Gradient Trace Correlation</b></i>. 
+This repository contains the code for <i><b>TraceNAS: Zero-shot LLM Pruning via Gradient Trace Correlation</b></i>. The paper can be accessed at <a href="https://arxiv.org/abs/2602.02891"><strong>Arxiv</strong></a> 
 
 # Summary
 TraceNAS is a training-free Neural Architecture Search (NAS) framework designed for the efficient structured pruning of LLMs. By jointly optimizing for depth and width using a <i><b>novel</b></i> scale-invariant zero-shot proxy, TraceNAS identifies pruned models that maintain high performance potential without the massive computational overhead of training-aware methods.
@@ -91,3 +91,19 @@ This search for pruned LLMs and Continued Pre-trainign are carried out on the `F
 We acknowledge the following works for their contributions to the development of TraceNAS:
 [WANDA](https://github.com/locuslab/wanda),
 [AmoebaLLM](https://github.com/GATECH-EIC/AmoebaLLM)
+
+
+# Citation
+If you find this work useful, please consider citing:
+
+```bibtex
+@misc{malettira2026tracenaszeroshotllmpruning,
+      title={TraceNAS: Zero-shot LLM Pruning via Gradient Trace Correlation}, 
+      author={Prajna G. Malettira and Manish Nagaraj and Arjun Roy and Shubham Negi and Kaushik Roy},
+      year={2026},
+      eprint={2602.02891},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.02891}, 
+}
+```
